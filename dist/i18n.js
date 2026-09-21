@@ -48,9 +48,9 @@ const translations = {
     card3Tag2: 'ROS',
 
     label03: '03 / OUR VISION',
-    visionH2: 'The world isn’t flat.<br><span>Robotics shouldn’t<br>stand still.</span>',
-    visionP1: 'We believe legged robots can extend what machines can do beyond structured environments.',
-    visionP2: 'Chinbi Robotics is at the beginning of that journey. Our focus today is the foundation: a capable mechanical platform, reliable control, and a disciplined path from simulation to the physical world.',
+    visionH2: 'Explorers by instinct.<br><span>Resilient by design —<br>like a wolf.</span>',
+    visionP1: 'Every frontier starts as rough ground. We build robots for terrain no machine has crossed yet.',
+    visionP2: 'That’s the instinct behind Chinbi: a wolf doesn’t wait for easy ground — it adapts, recovers, and keeps moving. Resilience, not fragility, is the core of how we design locomotion, control, and the platform as a whole.',
     visionLink: 'Follow the engineering journey',
 
     label04: '04 / DEVELOPMENT JOURNEY',
@@ -231,9 +231,9 @@ const translations = {
     card3Tag2: 'ROS',
 
     label03: '03 / TẦM NHÌN',
-    visionH2: 'Thế giới không bằng phẳng.<br><span>Robot học không nên<br>đứng yên.</span>',
-    visionP1: 'Chúng tôi tin rằng robot chân có thể mở rộng khả năng của máy móc vượt ra ngoài môi trường có cấu trúc.',
-    visionP2: 'Chinbi Robotics đang ở giai đoạn khởi đầu của hành trình đó. Trọng tâm hiện tại của chúng tôi là nền tảng: một hệ thống cơ khí đủ năng lực, khả năng điều khiển đáng tin cậy, và một lộ trình có kỷ luật từ mô phỏng đến thế giới thực.',
+    visionH2: 'Bản năng khám phá.<br><span>Bền bỉ như sói —<br>không lùi bước.</span>',
+    visionP1: 'Mọi chân trời mới đều bắt đầu từ địa hình gồ ghề. Chúng tôi xây dựng robot cho những vùng đất chưa cỗ máy nào từng đặt chân tới.',
+    visionP2: 'Đó là bản năng chúng tôi đưa vào Chinbi: một con sói không chờ đường bằng phẳng — nó thích nghi, phục hồi và tiếp tục tiến bước. Sự bền bỉ, không phải sự mong manh, là cốt lõi trong cách chúng tôi thiết kế khả năng vận động, điều khiển và cả nền tảng robot.',
     visionLink: 'Theo dõi hành trình kỹ thuật',
 
     label04: '04 / HÀNH TRÌNH PHÁT TRIỂN',
