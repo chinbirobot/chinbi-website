@@ -9,3 +9,7 @@ The model specifications and CAD image come from the local CHINBI_URDF_V1_TF des
 The website uses DM Sans and Manrope through Google Fonts, with system font fallbacks. Navigation and content work without JavaScript on desktop; mobile navigation uses a small dependency-free script.
 
 The hero artwork is AI-generated illustrative concept art, visibly labeled on the page; it is not a photograph or exact rendering of the actual Chinbi prototype. Generated once using the built-in imagegen tool with the prompt: “Photorealistic industrial design concept of a research quadruped robot; silver machined aluminum skeletal chassis, black cylindrical joint motors, four articulated slender legs with rubber feet, modest orange cable accents; dark charcoal studio, three-quarter view, entire robot visible, soft white edge lighting. No face, humanoid features, text, logos, UI, or watermark.” Asset: `dist/assets/quadruped-concept.png`.
+
+The site also includes real photographs of the hardware and team (leg assembly, CAD review, actuator assembly/testing, and a founder portrait), sourced from project materials and resized/compressed for the web. These are not AI-generated.
+
+The page covers the platform, engineering approach, development traction, technology/IP ownership, market opportunity, business model, competitive position, financial projections, founder/team background, and an investor section (the ask, use of funds, and contact) — all bilingual (EN/VN) via `dist/i18n.js`.
