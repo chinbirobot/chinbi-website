@@ -87,3 +87,10 @@
   .contact-row{gap:24px 36px;margin-top:32px;padding-top:22px}
   .team-heading{margin-top:48px}
 }
+
+/* Hero visual: studio framing — fine CAD grid, floor shadow, hairline frame */
+.hero-visual{border:1px solid var(--line);isolation:isolate;background:radial-gradient(ellipse 70% 65% at 50% 46%,rgba(212,251,97,.09),transparent 62%),radial-gradient(ellipse 95% 85% at 50% 45%,#343a33,#1d211d 60%,#141715 100%)}
+.hero-visual::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background-image:linear-gradient(rgba(243,245,237,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(243,245,237,.05) 1px,transparent 1px);background-size:48px 48px;-webkit-mask-image:radial-gradient(ellipse 65% 60% at 50% 50%,#000 20%,transparent 75%);mask-image:radial-gradient(ellipse 65% 60% at 50% 50%,#000 20%,transparent 75%)}
+.hero-visual::after{content:"";position:absolute;left:18%;right:18%;bottom:9%;height:14%;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at center,rgba(0,0,0,.6),transparent 70%);filter:blur(12px)}
+.hero-visual>img{filter:drop-shadow(0 28px 36px rgba(0,0,0,.55)) drop-shadow(0 0 1px rgba(243,245,237,.12));transform:scale(.94)}
+@media(max-width:720px){.hero-visual::after{bottom:30%}.hero-visual>img{transform:none}}
