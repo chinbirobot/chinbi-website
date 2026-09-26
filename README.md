@@ -13,3 +13,5 @@ The hero artwork is AI-generated illustrative concept art, visibly labeled on th
 The site also includes real photographs of the hardware and team (leg assembly, CAD review, actuator assembly/testing, and a founder portrait), sourced from project materials and resized/compressed for the web. These are not AI-generated.
 
 The page covers the platform, engineering approach, development traction, technology/IP ownership, market opportunity, business model, competitive position, financial projections, founder/team background, and an investor section (the ask, use of funds, and contact) — all bilingual (EN/VN) via `dist/i18n.js`.
+
+The brand mark (`dist/assets/chinbi-wolf.png`) is the wolf head from the official Chinbi Robotics logo, cropped without the wordmark and recolored to the site's light ink on a transparent background. It is used in the header, footer, favicon (`favicon-64.png`) and Apple touch icon.
