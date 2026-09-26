@@ -94,3 +94,8 @@
 .hero-visual::after{content:"";position:absolute;left:18%;right:18%;bottom:9%;height:14%;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at center,rgba(0,0,0,.6),transparent 70%);filter:blur(12px)}
 .hero-visual>img{filter:drop-shadow(0 28px 36px rgba(0,0,0,.55)) drop-shadow(0 0 1px rgba(243,245,237,.12));transform:scale(.94)}
 @media(max-width:720px){.hero-visual::after{bottom:30%}.hero-visual>img{transform:none}}
+
+/* Wolf watermark behind the vision section */
+.vision{position:relative;isolation:isolate}
+.vision::after{content:"";position:absolute;right:0;top:50%;width:min(560px,42vw);aspect-ratio:617/666;transform:translateY(-50%);background:url(assets/chinbi-wolf-watermark.png) center/contain no-repeat;opacity:.05;z-index:-1;pointer-events:none}
+@media(max-width:720px){.vision::after{width:78vw;top:auto;bottom:24px;transform:none;opacity:.04}}
