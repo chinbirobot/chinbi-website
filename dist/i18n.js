@@ -57,6 +57,8 @@ const translations = {
     prodNote: 'Images and video are renders of the actual CAD model. Contact us for delivery time.',
 
     contactWA: 'Chat with us on WhatsApp',
+    prodSimTag: 'MuJoCo simulation · Chinbi V2',
+    prodMovesNote: 'Physics simulation (MuJoCo) of Chinbi V2 with its trained control policies. Videos play automatically as you scroll.',
     contactH2: 'Order Chinbi V2.<br>Talk to the team that built it.',
     contactP: 'Contact us for orders, demos, event rentals, and partnerships.',
     label01: '01 / THE PLATFORM',
@@ -242,6 +244,8 @@ const translations = {
     prodNote: 'Ảnh và video là render từ mô hình CAD thật. Vui lòng liên hệ để biết thời gian giao hàng.',
 
     contactWA: 'Nhắn tin qua WhatsApp',
+    prodSimTag: 'Mô phỏng MuJoCo · Chinbi V2',
+    prodMovesNote: 'Mô phỏng vật lý (MuJoCo) robot Chinbi V2 với các chính sách điều khiển đã huấn luyện. Video tự chạy khi cuộn tới.',
     contactH2: 'Đặt mua Chinbi V2.<br>Trao đổi trực tiếp với đội ngũ làm ra robot.',
     contactP: 'Liên hệ để đặt mua, xem demo, thuê robot cho sự kiện hoặc hợp tác.',
     label01: '01 / NỀN TẢNG',
