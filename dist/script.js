@@ -20,3 +20,23 @@ if ('IntersectionObserver' in window) {
 if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   lazyVideos.forEach(v => { v.setAttribute('controls', ''); });
 }
+const lightbox = document.querySelector('#videoLightbox');
+if (lightbox) {
+  const lbVideo = lightbox.querySelector('video');
+  const lbTitle = lightbox.querySelector('.lb-title');
+  const openVideo = (src, title) => {
+    lbVideo.src = src; lbTitle.textContent = title || '';
+    if (lightbox.showModal) lightbox.showModal(); else lightbox.setAttribute('open', '');
+    const p = lbVideo.play(); if (p && p.catch) p.catch(() => {});
+  };
+  const closeVideo = () => { lbVideo.pause(); lbVideo.removeAttribute('src'); lbVideo.load(); if (lightbox.close) lightbox.close(); else lightbox.removeAttribute('open'); };
+  document.querySelectorAll('[data-video]').forEach(el => {
+    el.addEventListener('click', () => {
+      const label = el.querySelector('[data-i18n^="prodMove"]');
+      openVideo(el.getAttribute('data-video'), label ? label.textContent : '');
+    });
+  });
+  lightbox.querySelector('.lb-close').addEventListener('click', closeVideo);
+  lightbox.addEventListener('click', e => { if (e.target === lightbox) closeVideo(); });
+  lightbox.addEventListener('cancel', e => { e.preventDefault(); closeVideo(); });
+}
