@@ -15,3 +15,8 @@ The site also includes real photographs of the hardware and team (leg assembly, 
 The page covers the platform, engineering approach, development traction, technology/IP ownership, market opportunity, business model, competitive position, financial projections, founder/team background, and an investor section (the ask, use of funds, and contact) — all bilingual (EN/VN) via `dist/i18n.js`.
 
 The brand mark (`dist/assets/chinbi-wolf.png`) is the wolf head from the official Chinbi Robotics logo, cropped without the wordmark and kept in its original colours (black mane, white face) with the area outside the silhouette made transparent. It is used in the header and footer. A single-tone copy (`chinbi-wolf-watermark.png`) sits as a faint watermark behind the vision section. The browser-tab icon (`favicon.svg`, plus `apple-touch-icon.png`) is a simple stylised "C" in the accent colour, which stays legible at 16px.
+
+
+## Product section (Chinbi V2)
+
+`#product` lists the Chinbi V2 robot at 200,000,000 VND per robot, what is included, the motions it performs, and a spec table (12 RobStride RS04 actuators, Jetson Orin Nano 8 GB, camera, BMI088 IMU, 12S 444 Wh battery, payload up to 12 kg). Images and video are Blender renders of the actual CAD model: `assets/chinbi-v2-render.jpg`, `assets/chinbi-v2-video-poster.jpg`, `assets/chinbi-v2-blender.mp4` (720p, H.264). The competition table price was updated from ~300M VND to 200M VND.
