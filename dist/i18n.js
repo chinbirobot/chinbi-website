@@ -37,7 +37,7 @@ const translations = {
     prodInc7: 'Wireless gamepad remote control',
     prodInc8: 'Trained locomotion software: walking, stairs, jumps, spins, side flips, getting up',
     prodInc9: 'Handover training and direct technical support in Vietnam',
-    prodOrder: 'Contact us to order',
+    prodOrder: 'Order on WhatsApp',
     prodMovesLabel: 'WHAT IT CAN DO',
     prodMove1: 'Walk & trot', prodMove2: 'Turn in place', prodMove3: 'Climb stairs', prodMove4: 'Sit & stand', prodMove5: 'Jump',
     prodMove6: 'Spin', prodMove7: 'Side flip (lateral roll)', prodMove8: 'Get up after a fall', prodMove9: 'Carry payload up to 12 kg',
@@ -56,6 +56,7 @@ const translations = {
     prodVideoCap: 'Blender render of Chinbi V2: part-by-part assembly, standing, sitting, leg reach, and trotting (99 s).',
     prodNote: 'Images and video are renders of the actual CAD model. Contact us for delivery time.',
 
+    contactWA: 'Chat with us on WhatsApp',
     contactH2: 'Order Chinbi V2.<br>Talk to the team that built it.',
     contactP: 'Contact us for orders, demos, event rentals, and partnerships.',
     label01: '01 / THE PLATFORM',
@@ -221,7 +222,7 @@ const translations = {
     prodInc7: 'Tay cầm điều khiển không dây',
     prodInc8: 'Phần mềm điều khiển đã huấn luyện: đi bộ, leo cầu thang, nhảy, xoay, lật ngang, tự đứng dậy',
     prodInc9: 'Hướng dẫn sử dụng khi bàn giao và hỗ trợ kỹ thuật trực tiếp tại Việt Nam',
-    prodOrder: 'Liên hệ đặt mua',
+    prodOrder: 'Đặt mua qua WhatsApp',
     prodMovesLabel: 'ROBOT LÀM ĐƯỢC GÌ',
     prodMove1: 'Đi bộ & chạy nước kiệu', prodMove2: 'Quay tại chỗ', prodMove3: 'Leo cầu thang', prodMove4: 'Ngồi xuống & đứng lên', prodMove5: 'Nhảy',
     prodMove6: 'Xoay vòng', prodMove7: 'Lật ngang (lăn nghiêng)', prodMove8: 'Tự đứng dậy khi ngã', prodMove9: 'Mang tải tới 12 kg',
@@ -240,6 +241,7 @@ const translations = {
     prodVideoCap: 'Video render Blender của Chinbi V2: lắp ráp từng chi tiết, đứng, ngồi, duỗi chân và đi nước kiệu (99 giây).',
     prodNote: 'Ảnh và video là render từ mô hình CAD thật. Vui lòng liên hệ để biết thời gian giao hàng.',
 
+    contactWA: 'Nhắn tin qua WhatsApp',
     contactH2: 'Đặt mua Chinbi V2.<br>Trao đổi trực tiếp với đội ngũ làm ra robot.',
     contactP: 'Liên hệ để đặt mua, xem demo, thuê robot cho sự kiện hoặc hợp tác.',
     label01: '01 / NỀN TẢNG',
