@@ -111,3 +111,4 @@
 .video-lightbox video{aspect-ratio:16/9;object-fit:contain}
 .move-btn,.move-tag{font:inherit;font-size:14px;color:inherit;background:none;border:1px solid #556738;border-radius:3px;padding:8px 14px;line-height:inherit;display:inline-block;gap:0}.move-btn{cursor:pointer;transition:border-color .2s,color .2s}.move-btn:hover{background:none;color:var(--accent);border-color:var(--accent)}
 .tags .move-btn span{border:0;padding:0}
+.lb-close:focus,.lb-close:focus-visible,.move-btn:focus,.move-btn:focus-visible,.move-card:focus{outline:none}.lb-close:focus-visible,.move-btn:focus-visible{border-color:var(--accent);color:var(--accent)}
