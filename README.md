@@ -19,4 +19,4 @@ The brand mark (`dist/assets/chinbi-wolf.png`) is the wolf head from the officia
 
 ## Product section (Chinbi V2)
 
-`#product` lists the Chinbi V2 robot at 200,000,000 VND per robot, what is included, the motions it performs, and a spec table (12 RobStride RS04 actuators, Jetson Orin Nano 8 GB, Intel RealSense D435i depth camera, BMI088 IMU, 12S 444 Wh battery, payload up to 12 kg). Images and video are Blender renders of the actual CAD model: `assets/chinbi-v2-render.jpg`, `assets/chinbi-v2-video-poster.jpg`, `assets/chinbi-v2-blender.mp4` (720p, H.264). The competition table price was updated from ~300M VND to 200M VND.
+`#product` lists the Chinbi V2 robot at 200,000,000 VND per robot, what is included, the motions it performs, and a spec table (12 QDD actuators, Jetson Orin Nano 8 GB, Intel RealSense D435i depth camera, BMI088 IMU, 12S 444 Wh battery, payload up to 12 kg). Images and video are Blender renders of the actual CAD model: `assets/chinbi-v2-render.jpg`, `assets/chinbi-v2-video-poster.jpg`, `assets/chinbi-v2-blender.mp4` (720p, H.264). The competition table price was updated from ~300M VND to 200M VND.
